@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*header part start*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: #daac00;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+}
+
+header li{
+    margin: 0 20px;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+}
+
+header input {
+    border: none;
+    padding: 8px 12px;
+    background-color: #fcc302;
+    color: white;
+}
+
+header input::placeholder {
+    color: white;
+}
+
+header button{
+    border: none;
+    padding: 8px 10px;
+    background-color: #00bec9;
+    color: white;
+}
+
+/*header part Close*/
+
+/*hero part start*/
+
+.herostyle{
+    background-color: #fcc302;
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.herodetails {
+    width: 550px;
+}
+
+.herodetails h1{
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+
+.herodetails p{
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+    line-height: 20px;
+}
+
+.btn1{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #00bec9;
+
+}
+
+.btn2{
+    border: 2px solid white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #fcc302;
+    margin-left: 20px;
+
+}
+
+/*hero part Close*/
+
+/*Show part Start*/
+
+.showstyle{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 30px;
+}
+
+.showdetails {
+    width: 550px;
+}
+
+.showdetails h1{
+    font-size: 45px;
+    font-weight: bold;
+    color: black;
+}
+
+.showdetails p{
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: black;
+    line-height: 20px;
+}
+
+.btn3{
+    border: 2px solid white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #fcc302;
+
+}
+
+/*Show part Close*/
+
+
+/*Service part start*/
+
+.servicestyle{
+    background-color: #fcc302;
+    padding: 70px 50px;
+}
+
+.servicetitle h1{
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.servicetitle p{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: white;
+    text-align: center;
+    
+}
+
+.serviceimg h1{
+    width: 300px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+
+.serviceimg p{
+    width: 300px;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+.servicemain{
+    margin-top: 30px;
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+
+/*Service part Close*/
